@@ -5,6 +5,14 @@ This organization contains helper composite actions for use in GitHub Actions wo
 **This organization is not affiliated with GitHub**
 
 ## Inventory
+
+### general
+General purpose actions
+
+| Name | Action Reference | Description |
+|:-----|:-----------------|:------------|
+| [initialize-variables](https://github.com/actions-ext/general/tree/main/initialize-variables) | actions-ext/general/initialize-variables | Inspect commits, PR titles, and args for "full builds" |
+
 ### python
 Helper actions for Python projects
 
@@ -23,9 +31,16 @@ Helper actions for C++ projects
 |:-----|:-----------------|:------------|
 | [setup-cpp](https://github.com/actions-ext/cpp/tree/main/setup-cpp) | actions-ext/cpp/setup-cpp | Setup CCache (Linux / Macos only) |
 
-### general
-General purpose actions
+### rust
+Helper actions for Rust projects
 
 | Name | Action Reference | Description |
 |:-----|:-----------------|:------------|
-| [initialize-variables](https://github.com/actions-ext/general/tree/main/initialize-variables) | actions-ext/general/initialize-variables | Inspect commits, PR titles, and args for "full builds" |
+| | | |
+
+### node
+Helper actions for Node / JavaScript projects
+
+| Name | Action Reference | Description |
+|:-----|:-----------------|:------------|
+| | | |
