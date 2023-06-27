@@ -5,7 +5,7 @@ This organization contains helper composite actions for use in GitHub Actions wo
 **This organization is not affiliated with GitHub**
 
 ## Inventory
-#### python
+### python
 Helper actions for Python projects
 
 | Name | Action Reference | Description |
