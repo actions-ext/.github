@@ -18,18 +18,20 @@ Helper actions for Python projects
 
 | Name | Action Reference | Description |
 |:-----|:-----------------|:------------|
-| [download-python-dist](https://github.com/actions-ext/python/tree/main/download-python-dist) | actions-ext/python/download-python-dist | Download and install a python sdist or wheel |
-| [run-python-cibuildwheel](https://github.com/actions-ext/python/tree/main/run-python-cibuildwheel) | actions-ext/python/run-python-cibuildwheel | Run [`cibuildwheel`](https://cibuildwheel.readthedocs.io/en/stable/) |
-| [setup-python](https://github.com/actions-ext/python/tree/main/setup-python) | actions-ext/python/setup-python | Setup Python and pip caching |
-| [setup-python-cache](https://github.com/actions-ext/python/tree/main/setup-python-cache) | actions-ext/python/setup-python-cache | Setup pip caching |
-| [upload-python-dist](https://github.com/actions-ext/python/tree/main/upload-python-dist) | actions-ext/python/upload-python-dist | Upload a python sdist or wheel |
+| [setup](https://github.com/actions-ext/python/tree/main/setup) | actions-ext/python/setup | Setup Python and pip caching |
+| [setup-cache](https://github.com/actions-ext/python/tree/main/setup-cache) | actions-ext/python/setup-cache | Setup pip caching |
+| [setup-cibuildwheel](https://github.com/actions-ext/python/tree/main/setup-cibuildwheel) | actions-ext/python/setup-cibuildwheel | Setup [`cibuildwheel`](https://cibuildwheel.readthedocs.io/en/stable/) and caching |
+| [setup-cibuildwheel-cache](https://github.com/actions-ext/python/tree/main/setup-cibuildwheel-cache) | actions-ext/python/setup-cibuildwheel-cache | Setup [`cibuildwheel`](https://cibuildwheel.readthedocs.io/en/stable/) caching |
+| [run-cibuildwheel](https://github.com/actions-ext/python/tree/main/run-cibuildwheel) | actions-ext/python/run-cibuildwheel | Run [`cibuildwheel`](https://cibuildwheel.readthedocs.io/en/stable/) |
+| [upload-dist](https://github.com/actions-ext/python/tree/main/upload-dist) | actions-ext/python/upload-dist | Upload a python sdist or wheel |
+| [download-dist](https://github.com/actions-ext/python/tree/main/download-dist) | actions-ext/python/download-dist | Download and install a python sdist or wheel |
 
 ### cpp
 Helper actions for C++ projects
 
 | Name | Action Reference | Description |
 |:-----|:-----------------|:------------|
-| [setup-cpp](https://github.com/actions-ext/cpp/tree/main/setup-cpp) | actions-ext/cpp/setup-cpp | Setup CCache (Linux / Macos only) |
+| [setup](https://github.com/actions-ext/cpp/tree/main/setup) | actions-ext/cpp/setup | Setup CCache (Linux / Macos only) |
 
 ### rust
 Helper actions for Rust projects
