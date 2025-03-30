@@ -41,9 +41,9 @@ Helper actions for C++ projects
 
 Helper actions for Rust projects
 
-| Name | Action Reference | Description |
-| :--- | :--------------- | :---------- |
-|      |                  |             |
+| Name                                                         | Action Reference         | Description                            |
+| :----------------------------------------------------------- | :----------------------- | :------------------------------------- |
+| [setup](https://github.com/actions-ext/rust/tree/main/setup) | `actions-ext/rust/setup` | Setup rust compiler and enable caching |
 
 ### node
 
